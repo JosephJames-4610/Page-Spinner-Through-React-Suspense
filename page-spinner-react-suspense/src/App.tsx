@@ -10,7 +10,7 @@ function App() {
   React.useEffect(() => {
     if (initialLoad) {
       setInitialLoad(false);
-      setTimeout(() => { setPreRenderLoading(false); }, 8000);
+      setTimeout(() => { setPreRenderLoading(false); }, 5000);
     }
   }, []);
 
